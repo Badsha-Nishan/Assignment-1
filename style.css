@@ -7,7 +7,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-.assign {
+.align {
   width: 85%;
   max-width: 1360px;
   margin: 0 auto;
@@ -245,8 +245,8 @@ nav {
 /* Footer Section */
 
 .footer {
+  padding: 0 120px;
   color: #fff;
-  max-width: 1600px;
   min-height: 348px;
   background-color: #001931;
 }
@@ -259,6 +259,9 @@ nav {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 16px;
+}
+.links a i {
+  color: gray;
 }
 .links a {
   color: gray;
