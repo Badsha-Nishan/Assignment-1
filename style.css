@@ -245,15 +245,18 @@ nav {
 /* Footer Section */
 
 .footer {
-  padding: 0 120px;
+  width: 100%;
+  padding: 120px 0 40px;
   color: #fff;
-  min-height: 348px;
   background-color: #001931;
 }
 .footer-content {
+  margin: 0 auto;
+  max-width: 1600px;
   display: flex;
   justify-content: space-between;
-  padding-top: 120px;
+  align-items: center;
+  padding: 0 120px;
 }
 .footer-content .links h3 {
   font-size: 20px;
