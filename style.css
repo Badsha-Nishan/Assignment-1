@@ -27,9 +27,8 @@
   transition: 0.15s;
 }
 .primary-btn:hover {
-  background-color: #13d1a4;
+  background-color: #038566;
   transform: scale(0.97);
-  color: blueviolet;
 }
 
 /* Nav Section  */
@@ -57,4 +56,40 @@ nav {
 }
 .nav-link li a:hover {
   background-color: lightgray;
+}
+
+/* Banner Section */
+
+.banner {
+  padding: 116px 415px 180px;
+  color: #fff;
+  text-align: center;
+  background: url(./assets/hero-bg.png);
+  height: 674px;
+}
+.banner h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.banner p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.banner span {
+  color: #30b868;
+}
+.banner .trns-btn {
+  margin-left: 16px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.banner .trns-btn:hover {
+  background-color: #038566;
+  transform: scale(0.97);
 }
