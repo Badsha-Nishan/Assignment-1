@@ -275,7 +275,11 @@ nav {
   padding: 3px;
   margin-right: 12px;
 }
-
+.links a:hover,
+.links a i:hover {
+  background-color: #f95555;
+  color: #fff;
+}
 .footer hr {
   margin: 0 auto;
   margin-top: 80px;
