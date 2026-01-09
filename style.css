@@ -212,6 +212,7 @@ nav {
 
 .think-section {
   margin-top: 200px;
+  margin-bottom: 120px;
   text-align: center;
   background-color: #f7f6f2;
   border-radius: 12px;
@@ -236,4 +237,37 @@ nav {
 .think-section > .primary-btn:hover {
   gap: 15px;
   transform: scale(1);
+}
+
+/* Footer Section */
+
+.footer {
+  color: #fff;
+  max-width: 1600px;
+  min-height: 348px;
+  background-color: #001931;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+.footer-content .links h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.links a {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 12px;
+}
+.footer .copyright {
+  color: #fafafa;
+  font-size: 16px;
+  margin-top: 110px;
+  text-align: center;
 }
