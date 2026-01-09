@@ -30,6 +30,11 @@
   background-color: #038566;
   transform: scale(0.97);
 }
+.primary-btn:active {
+  color: red;
+  background-color: #038566;
+  transform: scale(0.97);
+}
 
 /* Nav Section  */
 
@@ -201,4 +206,34 @@ nav {
   line-height: 20px;
   color: #001931;
   margin-bottom: 16px;
+}
+
+/* Think Section */
+
+.think-section {
+  margin-top: 200px;
+  text-align: center;
+  background-color: #f7f6f2;
+  border-radius: 12px;
+  padding: 80px 300px;
+}
+.think-section h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.think-section p {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+.think-section > .primary-btn {
+  display: inline-flex;
+  gap: 5px;
+  margin-bottom: 16px;
+}
+.think-section > .primary-btn:hover {
+  gap: 15px;
+  transform: scale(1);
 }
