@@ -24,7 +24,7 @@
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  transition: 0.15s;
+  transition: all 0.15s ease;
 }
 .primary-btn:hover {
   background-color: #038566;
@@ -32,6 +32,22 @@
 }
 .primary-btn:active {
   color: red;
+  background-color: #038566;
+  transform: scale(0.97);
+}
+
+/* Another Button */
+
+.trns-btn {
+  margin-left: 16px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.trns-btn:hover {
   background-color: #038566;
   transform: scale(0.97);
 }
@@ -57,20 +73,20 @@ nav {
   color: #000;
   padding: 12px 16px;
   border-radius: 5px;
-  transition: 0.3s;
+  transition: background-color 0.3s ease;
 }
 .nav-link li a:hover {
   background-color: lightgray;
 }
 
-/* Banner Section */
+/* Hero Section */
 
 .banner {
   padding: 116px 415px 180px;
   color: #fff;
   text-align: center;
-  background: url(./assets/hero-bg.png);
-  height: 674px;
+  background: url(./assets/hero-bg.png) center / cover no-repeat;
+  min-height: 674px;
 }
 .banner h1 {
   font-size: 72px;
@@ -85,24 +101,11 @@ nav {
 .banner span {
   color: #30b868;
 }
-.banner .trns-btn {
-  margin-left: 16px;
-  padding: 12px 16px;
-  border-radius: 4px;
-  border: 1px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-}
-.banner .trns-btn:hover {
-  background-color: #038566;
-  transform: scale(0.97);
-}
 
 /* Notes Section */
 
 .notes-section {
-  margin-top: 60px;
+  margin-top: 80px;
   text-align: center;
 }
 .notes-section .head h2 {
@@ -114,7 +117,7 @@ nav {
 .notes-section .head p {
   color: #627382;
   font-size: 16px;
-  margin-bottom: 44px;
+  margin-bottom: 60px;
 }
 
 /* Notes Section Cards */
@@ -258,6 +261,7 @@ nav {
   margin-bottom: 16px;
 }
 .links a {
+  color: gray;
   background-color: #fff;
   width: 20px;
   height: 20px;
