@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.assign {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+/* Primary Button */
+
+.primary-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #30b868;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.primary-btn:hover {
+  background-color: #13d1a4;
+  transform: scale(0.97);
+  color: blueviolet;
+}
+
+/* Nav Section  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  padding: 16px 0;
+}
+.nav-link {
+  list-style: none;
+  display: flex;
+}
+.nav-link li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 12px 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.nav-link li a:hover {
+  background-color: lightgray;
+}
