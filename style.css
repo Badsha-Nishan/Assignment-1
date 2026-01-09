@@ -275,9 +275,18 @@ nav {
   padding: 3px;
   margin-right: 12px;
 }
+
+.footer hr {
+  margin: 0 auto;
+  margin-top: 80px;
+  background-color: #e5e7eb;
+  max-width: 1360px;
+  border: none;
+  height: 1px;
+}
 .footer .copyright {
   color: #fafafa;
   font-size: 16px;
-  margin-top: 110px;
+  margin-top: 30px;
   text-align: center;
 }
